@@ -1,0 +1,28 @@
+﻿型号,类型,官方能力,证据边界,设计启发,来源代码,访问日期
+Xiaomi Smart Pet Food Feeder 2,5L干粮自动机,碗内称重、剩粮显示、LED屏、可拆粮仓；支持备用供电。[S01],准确度与续航为厂商条件性宣称；清洁后仍需校准。[S02–03],称重与易拆已存在；应细化取碗、校准与维护动作。,"S01,S02,S03",2026-10-26
+PETLIBRO Air Smart PLAF108,2L紧凑无线干粮机,"可拆部件、多人App和离线计划；每份约10.4mL。[S04,S17]",体积份量对应的克数受粮种影响；仅对应PLAF108。,小型、无线与多人使用不能单独作为餐序独有点。,"S04,S17",2026-10-26
+PETLIBRO Granary 2 AF105/PLAF105,碗称重反馈干粮机,"1g级碗秤宣称、定时/Smart Refill、每日上限；有转子拆装与校准支持。[S05–06,S14]",AF105与Vision/X区分；专属支持明确无摄像头；不推导准确摄入。,剩粮补充和每日上限均有直接竞品，需研究维护过程。,"S05,S06,S14",2026-10-26
+PETKIT YumShare Dual-hopper 2,双仓摄像识别干粮机,多猫识别、视觉余粮防堆满、可拆清洁、离线计划。[S07],相机识别与物理防抢食是不同能力；未实测其AI表现。,餐序聚焦单猫和维护，降低相机、双仓带来的范围负担。,S07,2026-10-26
+PetSafe Smart Feed 2nd Generation PFD00-16828,输送式干粮机,按杯分量、多餐、慢食、Feed Now及可洗粮仓/碗等。[S08],杯数不等于任意粮种的固定克数；底座与输送器维护有边界。,防误触、碎屑清理和复装属于可靠性任务。[S12–13],"S08,S12,S13",2026-10-26
+SureFeed Microchip Pet Feeder Connect,人工加粮的芯片门禁食碗,芯片/RFID开盖、称重和LED份量引导；App需Hub。[S09],并非自动粮仓出粮机，不用同一指标强行排名。,人工份量引导与可拆部件已有；保持猫的接近空间。,"S09,S15",2026-10-26
+CATLINK Fresh 2 Luxury,4L RFID干粮自动机,App加餐/跳餐；Smart Mode碗内低于10g补粮；部分部件可洗。[S10],清洗范围限碗、碗托、粮桶等；其余擦拭，未拆机确认机构。,余粮阈值补粮已有；应比较具体粮路与任务步骤。,S10,2026-10-26
+PETLIBRO Polar PLAF109,预分餐冷藏湿粮机,人工预分三餐、制冷、计划开餐；食碗可洗。[S11],版本参数有差别；冷凝维护和停电制冷边界需核查。[S16],作为路线边界，餐序V2不加入湿粮制冷功能。,"S11,S16",2026-10-26
+
+来源代码,官方页面,链接
+S01,Xiaomi Smart Pet Food Feeder 2｜全球产品页,https://www.mi.com/global/product/xiaomi-smart-pet-food-feeder-2/
+S02,Xiaomi｜取碗或清洗后进食数据异常说明,https://www.mi.com/my/support/faq/details/KA-243434/
+S03,Xiaomi｜空碗显示2g及校准说明,https://www.mi.com/uk/support/faq/details/KA-243444/
+S04,PETLIBRO Air Smart PLAF108｜澳洲产品页,https://au.petlibro.com/products/air-wifi-feeder
+S05,PETLIBRO Granary 2 Smart Feeder｜美国产品页,https://petlibro.com/products/granary-2-smart-feeder
+S06,PETLIBRO Granary 2 AF105｜官方支持中心,https://ca.petlibro.com/pages/faq-product/granary-2
+S07,PETKIT YumShare Dual-hopper 2｜官方产品页,https://www.petkit.com/products/yumshare-dual-hopper-2-automatic-feeder-with-camera
+S08,PetSafe Smart Feed第二代｜官方产品页,https://www.petsafe.com/p/smart-feed/PFD00-16828/
+S09,SureFeed Microchip Pet Feeder Connect｜官方产品页,https://www.surepetcare.com/en-us/pet-feeder/microchip-pet-feeder-connect
+S10,CATLINK Fresh 2 Luxury｜官方产品页,https://www.catlinkus.com/products/catlink-automatic-feeder-fresh-2
+S11,PETLIBRO Polar湿粮机｜官方产品页,https://petlibro.com/products/polar-wet-food-pet-feeder
+S12,PetSafe｜计划外出粮与按钮锁排查,https://support.petsafe.net/articles/my-petsafe-smart-feed-automatic-pet-feeder-is-dispensing-meals-outside-of-the-scheduled-time/
+S13,PetSafe｜出粮量异常与维护排查,https://support.petsafe.net/articles/my-petsafe-smart-feed-automatic-pet-feeder-is-not-dispensing-the-correct-amount-of-food/
+S14,PETLIBRO｜Granary 2转子拆装教程入口,https://ca.petlibro.com/pages/faq-video/af-105-how-to-remove-and-reinstall-the-rotor-components
+S15,Sure Petcare｜SureFeed官方清洁说明,https://www.surepetcare.com/en-us/advice-news/how-to-clean-your-surefeed-microchip-pet-feeder-and-microchip-pet-feeder-connect
+S16,PETLIBRO｜Polar冷凝水说明,https://petlibro.com/pages/is-it-normal-that-there-is-condensation-in-the-polar-wet-food-feeder
+S17,PETLIBRO Air Smart｜官方售前FAQ,https://ca.petlibro.com/pages/pre-sale-inquiries-about-air-smart-feeder-af108-plaf108
